@@ -69,7 +69,7 @@ void write_test(Container* obj)
 // Variables for our directory and file name.
   char in_command[20] = "mkdir -p " ;
   char dir_name[20]   = "c_dir";  
-  char *file_name   = "c_file.txt";
+  char *file_name     = "c_file.txt";
   char path_name[50];
 
 // Char concatination with sprintf and strcat.
